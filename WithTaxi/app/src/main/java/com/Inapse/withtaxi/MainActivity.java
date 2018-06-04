@@ -13,9 +13,11 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         binding = DataBindingUtil.setContentView(this, R.layout.activity_main);
+
         binding.MainLogo.getLayoutParams().height =  getApplicationContext().getResources().getDisplayMetrics().widthPixels/3;
         binding.MainLogo.getLayoutParams().width =  getApplicationContext().getResources().getDisplayMetrics().widthPixels/3;
         binding.MainLogo.requestLayout();
+
         ActionBar actionBar = getSupportActionBar();
         if (actionBar != null) {
             actionBar.hide();

@@ -1,4 +1,8 @@
 <resources>
     <string name="app_name">위드택시</string>
     <string name="string_margin">a</string>
+    <string name="welcome_message">회원님의 접속을\n진심으로\n환영합니다!</string>
+    <string name="id">아이디</string>
+    <string name="pw">비밀번호</string>
+    <string name="login">로그인</string>
 </resources>
