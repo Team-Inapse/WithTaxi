@@ -9,13 +9,21 @@
         android:roundIcon="@mipmap/icon"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        <activity android:name=".activity.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".activity.AlarmActivity"/>
+        <activity android:name=".activity.LockScreenActivity"/>
+        <activity android:name=".activity.MapActivity"/>
+        <activity android:name=".activity.PartyFindActivity"/>
+        <activity android:name=".activity.PartyJoinActivity"/>
+        <activity android:name=".activity.PartyMainActivity"/>
+        <activity android:name=".activity.ProfileActivity"/>
+        <activity android:name=".activity.ViewActivity"/>
     </application>
 
 </manifest>

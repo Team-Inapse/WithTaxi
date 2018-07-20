@@ -1,10 +1,12 @@
-package com.Inapse.withtaxi;
+package com.Inapse.withtaxi.activity;
 
 import android.databinding.DataBindingUtil;
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.View;
 
+import com.Inapse.withtaxi.R;
 import com.Inapse.withtaxi.databinding.ActivityMainBinding;
 
 public class MainActivity extends AppCompatActivity {
@@ -22,5 +24,17 @@ public class MainActivity extends AppCompatActivity {
         if (actionBar != null) {
             actionBar.hide();
         }
+        binding.btnLogin.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                //
+            }
+        });
+        binding.btnReg.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                //
+            }
+        });
     }
 }
